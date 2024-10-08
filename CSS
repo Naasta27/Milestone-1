@@ -1,0 +1,83 @@
+/* Reset some default browser styles */
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a clean font for the body */
+    line-height: 1.6; /* Increase line height for readability */
+}
+
+/* Style for the header section */
+header {
+    background-color: #4CAF50; /* Set background color for header */
+    color: white; /* Set text color to white */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center align the text */
+}
+
+/* Navigation links styling */
+nav ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add space between links */
+}
+
+nav ul li a {
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Main content styling */
+main {
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Style for the footer section */
+footer {
+    background-color: #333; /* Set a darker background color */
+    color: white; /* Set text color to white */
+    text-align: center; /* Center align the text */
+    padding: 10px; /* Add padding for spacing */
+    position: relative; /* Set positioning for footer */
+    bottom: 0; /* Position footer at the bottom */
+    width: 100%; /* Full width for footer */
+}
+
+/* Style for the form elements */
+form {
+    margin-top: 20px; /* Add margin above the form */
+}
+
+form label {
+    display: block; /* Display labels as block elements */
+    margin: 10px 0 5px; /* Add margin for spacing around labels */
+}
+
+form input {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Add padding for comfort */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for input fields */
+}
+
+form button {
+    background-color: #4CAF50; /* Set background color for button */
+    color: white; /* Set text color for button */
+    padding: 10px 15px; /* Add padding for button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for the message displayed after form submission */
+#formMessage {
+    margin-top: 20px; /* Add margin above message */
+    color: green; /* Set text color to green for success messages */
+}

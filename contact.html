@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styling -->
+    <script src="script.js" defer></script> <!-- Link to external JavaScript for interactivity -->
+</head>
+<body>
+<header>
+    <h1>Contact Us</h1> <!-- Main heading for Contact page -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li> <!-- Link to Home page -->
+            <li><a href="about.html">About</a></li> <!-- Link to About page -->
+            <li><a href="contact.html">Contact</a></li> <!-- Link to Contact page -->
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Contact Page</h2> <!-- Subheading for Contact page -->
+    <form id="contactForm"> <!-- Contact form with ID for JavaScript handling -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" required> <!-- Input for the user's name -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" required> <!-- Input for the user's email -->
+        <button type="submit">Submit</button> <!-- Submit button for the form -->
+    </form>
+    <div id="formMessage"></div> <!-- Div for displaying form submission message -->
+</main>
+<footer>
+    <p>&copy; 2024 My Website</p> <!-- Footer information -->
+</footer>
+</body>
+</html>

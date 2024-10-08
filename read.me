@@ -1,0 +1,64 @@
+# HTML Structure for My Website
+
+## Overview
+This document provides a detailed explanation of the HTML structure used in the multi-page website consisting of three main pages: Home, About, and Contact. The website is built using HTML, CSS, and JavaScript to deliver a clean and user-friendly experience.
+
+## HTML Pages
+
+### 1. index.html (Home Page)
+- **Purpose**: Serves as the main landing page for the website.
+- **Key Features**:
+  - Introduces the website and its purpose.
+  - Provides navigation links to other pages (About and Contact).
+  - Contains a welcome message and engaging visuals.
+
+### 2. about.html (About Page)
+- **Purpose**: Provides information about the website and its objectives.
+- **Key Features**:
+  - Describes the purpose and mission of the website.
+  - Introduces the author or organization behind the website.
+  - Includes engaging content to keep users informed.
+
+### 3. contact.html (Contact Page)
+- **Purpose**: Allows users to submit their contact information and messages.
+- **Key Features**:
+  - Contains a form for user input.
+  - Includes fields for the user's name, email, and message.
+  - JavaScript is used to validate the form inputs and display success messages upon submission.
+
+## HTML Structure
+The HTML files follow a consistent structure with:
+- A `<header>` section containing the website title and navigation links.
+- A `<main>` section where the main content of each page is placed.
+- A `<footer>` section that includes copyright information and additional links.
+
+### Example of HTML Structure in `index.html`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Introduction</h2>
+        <p>This is a simple website to demonstrate HTML, CSS, and JavaScript.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>

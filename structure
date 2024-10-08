@@ -1,0 +1,4 @@
+Header: Contains the website title and navigation links to different pages.
+Main: Each page has its unique main content, clearly labeled with headers and paragraphs. The contact page includes a form.
+Footer: Provides copyright information and a link to the README file.
+JavaScript: Each page links to a common JavaScript file for added interactivity.
